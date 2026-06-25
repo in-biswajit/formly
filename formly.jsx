@@ -28,9 +28,9 @@ const FONT     = "'Courier New', Courier, monospace";
 const defaultQuestions = () => [
   { id: uid(), label: "Project Details", type: "section", options: [], required: false },
   { id: uid(), label: "Project Title", type: "short", options: [], required: true },
-  { id: uid(), label: "Proposal Type", type: "radio", options: ["Business Proposal","Project Proposal","Startup Proposal","Technical Proposal","Research Proposal","Funding Proposal","Other"], required: false },
+  { id: uid(), label: "Proposal Type", type: "checkbox", options: ["Business Proposal","Project Proposal","Startup Proposal","Technical Proposal","Research Proposal","Funding Proposal","Other"], required: false },
   { id: uid(), label: "Proposal Type Comments", type: "short", options: [], required: false },
-  { id: uid(), label: "Industry", type: "radio", options: ["Software & IT","AI & Automation","E-commerce","Healthcare","Education","Finance","Real Estate","Manufacturing","Marketing","Construction","Agriculture","Other"], required: false },
+  { id: uid(), label: "Industry", type: "checkbox", options: ["Software & IT","AI & Automation","E-commerce","Healthcare","Education","Finance","Real Estate","Manufacturing","Marketing","Construction","Agriculture","Other"], required: false },
   { id: uid(), label: "Industry Comments", type: "short", options: [], required: false },
   { id: uid(), label: "Describe Your Project", type: "long", options: [], required: true },
   { id: uid(), label: "Problem Statement", type: "long", options: [], required: true },
